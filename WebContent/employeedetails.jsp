@@ -16,9 +16,7 @@
 <jsp:include page="_header.jsp"></jsp:include>
 	<div align="center">
 		<h1>User successfully registered!</h1>
-		<a href="loginsuccess.jsp">Login</a>
+		<a href="login.jsp">Login</a>
 	</div>
- <h1>User successfully registered!</h1>
- 
 </body>
 </html>

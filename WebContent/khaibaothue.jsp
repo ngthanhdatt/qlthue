@@ -19,7 +19,7 @@
    <table style="with: 80%">
     <tr>
      <td>Ma So Thue</td>
-     <td><input type="text" name="mst" /></td>
+     <td><input type="text" name="mst" value="<%=session.getAttribute("mst")%>" disabled /></td>
     </tr>
     <tr>
      <td>Date</td>

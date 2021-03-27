@@ -16,7 +16,7 @@
 %>
 	<div align="center">
 		<h1>Employee Login Form</h1>
-		<form name="dangnhap" action="doLogin.jsp"method = "post">
+		<form name="dangnhap" action="doLogin.jsp" method = "post">
 			<table style="with: 100%">
 				<tr>
 					<td>Ma So Thue</td>

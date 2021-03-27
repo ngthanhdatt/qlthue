@@ -1,4 +1,12 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8" import="java.util.ArrayList,dao.*,model.*"%>
+<%
+if (request.getParameter("logout") != null) {  
+    session.invalidate();
+    response.sendRedirect("login.jsp");
+    return; 
+}
+%>
 <!DOCTYPE html>
 <html>
 <head>

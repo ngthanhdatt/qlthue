@@ -43,7 +43,7 @@ public class CustomerDAO extends DAO{
 			cs.setString(1, bill.getDate());
             cs.setString(2, bill.getLuong());
             cs.setString(3, bill.getSonguoi());
-            cs.setString(4, bill.getSonguoi());
+            cs.setString(4, bill.getTienThue());
             cs.setString(5, bill.getMst());
             
             cs.executeQuery();
